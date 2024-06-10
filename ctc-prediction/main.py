@@ -44,5 +44,5 @@ async def predict(data: Data):
         ]
     ).reshape(1, 11)
     y = model.predict(ip)
-    y = y[0][0] * 0.575
+    y = y[0][0]
     return {"ctc": y}
