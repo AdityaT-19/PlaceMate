@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "37632358817",
+    "project_id": "placemate-6cc73",
+    "storage_bucket": "placemate-6cc73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37632358817:android:ed40ed0fc0ae77becd73e0",
+        "android_client_info": {
+          "package_name": "com.example.placemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK2aLE73_sAX5AjHeL8u5sy2lw9OpLzaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
