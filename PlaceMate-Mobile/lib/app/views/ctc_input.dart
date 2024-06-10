@@ -220,7 +220,7 @@ class _CtcInputScreenState extends State<CtcInputScreen> {
                       };
 
                       final Uri url = Uri.parse(
-                          'https://placemate-predict.onrender.com/predict');
+                          'https://placemate-predict-m994.onrender.com/predict');
                       final headers = {
                         'Content-Type': 'application/json',
                       };

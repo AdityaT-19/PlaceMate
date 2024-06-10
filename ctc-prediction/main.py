@@ -26,6 +26,11 @@ async def root():
     return {"message": "Hello World"}
 
 
+@app.get("/health")
+async def health():
+    return {"status": "Healthy"}
+
+
 @app.post("/predict")
 async def predict(data: Data):
     ip = np.array(
@@ -44,5 +49,5 @@ async def predict(data: Data):
         ]
     ).reshape(1, 11)
     y = model.predict(ip)
-    y = y[0][0]
+    y = y[0][0] * 0.9
     return {"ctc": y}
